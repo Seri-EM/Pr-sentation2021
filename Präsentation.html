@@ -1,0 +1,159 @@
+<html>
+
+<script>
+	function show(shown, hidden) {
+		document.getElementById(shown).style.display='block';
+		document.getElementById(hidden).style.display='none';
+	return false;
+}
+</script>
+
+<style>
+body	{
+	background-image: url("imgs/pergbg.png");
+	background-size: cover;
+	background-color: #FFFFFF;
+	
+}
+h1		{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: #7E511F;
+	font-style: normal;
+	font-family: 'Georgia';
+	font-size: 64px;
+	margin-left: 16.75em;
+}
+p		{
+    text-shadow: -1px 0 #402d10, 0 1px #402d10, 1px 0 #402d10, 0 -1px #402d10;
+	color: #140A2D;
+	font-style: italic;
+	font-family: 'Georgia';
+	font-size: 24px;
+	width: 1024px;
+	margin-left: 30em;
+}
+.bt-invis	{
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;	
+}
+</style>
+
+<head>
+
+<title>
+Präsentation
+</title>
+
+</head>
+
+<body>
+	<div id="s0">
+		<img src="imgs/skizze.png"
+			style="position: absolute; top: 50px; left: 100px; width: 545px; height: 815px; border: none;"/>
+		
+		<h1>Hauptseite</h1>
+		
+		<p>Mit diesem kleinen Programm möchte ich mein Basis-Wissen über Web-Entwicklung zeigen,
+		während ich ein bisschen was über meine anderen Fähigkeiten erzähle.<br>
+		<br>
+		Das Programm benutzt handgezeichnete Icons & Bilder und <br>
+		besteht aus einer einzelnen HTML Datei. Alle Bilder, sowie eine <br>Blender-Projekt Datei (ver. 2.93.1) 
+		gehören zu meiner Präsentation und sind in ihren Ordnern enthalten.</p>
+		
+		<p>Das komplette Programm besteht zudem aus einer einzelnen HTML.</p>
+		<button class="bt-invis" onclick="return show('s1','s0')">
+			<img src="imgs/2d-bt.png"
+				style="margin-left: 53.5em;"
+				alt= "zeichnen"/>
+		</button>
+		<button class="bt-invis" onclick="return show('s2','s0')">
+			<img src="imgs/3d-bt.png"
+				style="margin-left: -2.85em;"
+				alt= "zeichnen"/>
+		</button>
+		<button class="bt-invis" onclick="return show('s3','s0')">
+			<img src="imgs/px-bt.png"
+				style="margin-left: -2.85em;"
+				alt= "zeichnen"/>
+		</button>
+	</div>
+ 
+	<div id="s1" style="display:none">
+	
+		<img src="imgs/2d.png"
+			style="position: absolute; top: 50px; left: 100px; width: 545px; height: 815px; border: none;"/>
+		<h1>Zeichnen</h1>
+		
+		<p>Mit dem Zeichnen fing ich in meiner Jugend an und habe seitdem immer Mal wieder kleinere aber auch große Durchbrüche erlebt.
+		Mein großes Interesse dafür entwickelte ich aber erst vor ein paar Jahren als ich mir mein erstes Grafiktablett zugelegt habe,
+		seitdem bevorzuge ich es - auch wenn mir das Zeichnen mit Stift und Radiergummi gefällt - Grafiken am Computer zu erstellen.</p>
+		
+		<p>Auch wenn zeichnen an sich etwas ist, das Übung und Lernbereitschaft erfordert, habe ich mit der Zeit festgestellt,
+		dass das nur die Oberfläche ist an der man kratzt. Jede Praxis - unabhängig vom Zeichnen - erfordert, dass man am Ball bleibt.
+		Mit tieferem Verständnis dafür, lernte ich mehr über das Zusammenspiel von Farben, wie man Formen im Alltag erkennt
+		und sie auf die Leinwand bringt. Während ich früher sehr detailverliebt Bilder bis ins Extremse ausgefüllt habe,
+		ist es mir heute zunehmend wichtiger geworden einen Schritt zurück zu treten und mir die Frage zu stellen:</p>
+		
+		<p>"Ist das was ich da gerade zeichne auch wirklich das was ich ausdrücken möchte?"</p>
+		
+		<p>Beim Zeichnen gibt es kein 'richtig' oder 'falsch'. Es geht darum Gedanken und Gefühle visuell aufs Papier zu bringen,
+		und ist für mich daher eine eigene Sprache. Ein Bild sagt schließlich mehr als tausend Worte.</p>
+
+	<button class="bt-invis" onclick="return show('s0','s1')">
+		<img src="imgs/back-bt.png"
+			style="margin-left: 53.5em;"
+			alt= "zeichnen"/>
+	</button>
+	</div>
+ 
+	<div id="s2" style="display:none">
+		<img src="imgs/3d.png"
+			style="position: absolute; top: 50px; left: 100px; width: 545px; height: 815px; border: none;"/>
+	
+		<h1>3D</h1>
+		
+		<p>Eines meiner großen Leidenschaften in denen ich mich gerne verliere und Zeit investiere ist Ideen die ich schon Mal
+		aufs Blatt gebracht habe tiefergreifend in 3D zu erkunden und es aus einem anderen Sichtwinkel zu betrachten.<br><br>
+		Mir gefällt es Umfeld und Umgebung zu erkunden und quasi aus dem Nichts etwas beinahe greifbares zu gestalten.
+		In einer gewissen Art und Weise ist für mich der Prozess mit 3D zu arbeiten als würde ich mit formbarer Knete hantieren,
+		wenn mir etwas nicht gefällt, lässt es sich zügig auseinander nehmen oder umformen.</p>
+		
+		
+	<button class="bt-invis" onclick="return show('s0','s2')">
+		<img src="imgs/back-bt.png"
+			style="margin-left: 53.5em;"
+			alt= "zeichnen"/>
+	</button>
+	</div>
+  
+	<div id="s3" style="display:none">
+		<img src="imgs/px.png"
+			style="position: absolute; top: 50px; left: 100px; width: 545px; height: 815px; border: none;"/>
+		<h1>Pixel Art</h1>
+		
+		<p>Etwas was heutzutage immer seltener angewandt wird, ist mit bloßen Pixeln zu malen. Meistens in sehr kleine Auflösungen
+		lassen sich solche Bilder problemlos auch hochskalieren. Warum aber ist das etwas, dass ich hin und wieder bevorzuge?</p>
+		
+		<p>Pixel Art ist für mich eine herausfordernde Kunst in der man mit starken Einschränkungen und unter minimalsten Bedingungen
+		seine Ideen und Kreativität zum Ausdruck bringen kann. Mancher würde da schnell behaupten, dass das primitiv sei.
+		Die Wahrheit ist jedoch, dass Pixel Art sehr komplex ist und den Einsatz von Techniken erfordert
+		um sich aus den gegebenen Einschränkungen zu befreien und dem Bild eine Stimme gibt.
+		
+		Während Pixel Art früher lediglich zur Spielentwicklung verwendung fand ist es heute eine spannende und kreative Art und Weise 
+		Grafiken zu erstellen die minimale Mengen an Speicher benötigen und dennoch genau das Vermitteln was man braucht.</p>
+		
+		<p>Das Bild links ist von der Dateigröße kleiner (ca. 9KB) als das Icon das zu dieser Seite herführt (ca. 18KB).</p>
+		
+	<button class="bt-invis" onclick="return show('s0','s3')">
+		<img src="imgs/back-bt.png"
+			style="margin-left: 53.5em;"
+			alt= "zeichnen"/>
+	</button>
+	</div>
+
+</body>
+</html>
